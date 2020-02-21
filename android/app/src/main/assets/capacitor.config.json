@@ -1,0 +1,8 @@
+{
+  "appId": "com.choco.todo.ionic.svelte",
+  "appName": "TodoIonicSvelte",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "public",
+  "cordova": {}
+}
