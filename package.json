@@ -2,13 +2,14 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && cap sync",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "update": "npx npm-check-updates -u",
     "cap": "cap",
     "cap:android": "cap open android",
-    "cap:electron": "cap open electron"
+    "cap:electron": "cap open electron",
+    "cap:ios": "cap open ios"
   },
   "devDependencies": {
     "@capacitor/cli": "^1.5.0",

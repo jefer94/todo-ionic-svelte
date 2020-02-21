@@ -13,8 +13,6 @@
   export let routes = []
   export let title = ''
   export let color = 'tertiary'
-
-  console.log(routes)
 </script>
 
 <style>

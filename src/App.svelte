@@ -1,12 +1,12 @@
 <script>
 	import Menu from './Menu.svelte'
-	import ToDoList from './ToDoList.svelte'
+	import TodoList from './TodoList.svelte'
 	import { addRoute } from './Router.svelte'
 	import lang from './lang'
 
 	let path = ''
 	let routes = [
-		addRoute('/', lang.list, ToDoList)
+		addRoute('/', lang.list, TodoList)
 	]
 
 	setInterval(() => {
@@ -19,7 +19,7 @@
 	<ion-app>
 		<Menu color="tertiary" title={lang.list} routes={routes}>
 		  {#if path === '/'}
-			  <ToDoList></ToDoList>
+			  <TodoList></TodoList>
 			{/if}
 		</Menu>
 		<ion-router-outlet></ion-router-outlet>
