@@ -1,6 +1,6 @@
 {
   "appId": "com.choco.todo.ionic.svelte",
-  "appName": "TodoIonicSvelte",
+  "appName": "Todo Ionic Svelte",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "public",
