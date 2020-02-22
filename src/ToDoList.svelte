@@ -14,7 +14,7 @@
 </script>
 
 <script>
-  import Alert from './alert'
+  import Alert from './Alert'
   import lang from './lang'
 
   const key = '__TO_DO_ITEMS__'
